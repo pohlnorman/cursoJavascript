@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--styles.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js "></script>
+
+    <!--Plugin DataTable-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+    <title>Estadísticas</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid col-lg-10">
+            <a class="navbar-brand dis" href="/index.html">Te lo vendo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estadísticas.html">Estadísticas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="container mt-2">
+        <h2 class="display-4">Estadísticas</h2>
+        <table class="table" id="estadisticas">
+            <thead>
+                <tr>
+                    <th scope="col ">#</th>
+                    <th scope="col ">Producto</th>
+                    <th scope="col ">Neto</th>
+                    <th scope="col ">Iva</th>
+                    <th scope="col ">Total</th>
+                    <th scope="col ">Stock Disponible</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row ">1</th>
+                    <td>Atari</td>
+                    <td>$21.008</td>
+                    <td>$3.992</td>
+                    <td>$25.000</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="row ">2</th>
+                    <td>Radio con Casettera</td>
+                    <td>$30.000</td>
+                    <td>$5.700</td>
+                    <td>$35.700</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th scope="row ">3</th>
+                    <td>Nintendo 64</td>
+                    <td>$90.000</td>
+                    <td>$17.100</td>
+                    <td>$107.100</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="row ">4</th>
+                    <td>Tornamesa Antigua</td>
+                    <td>$100.000</td>
+                    <td>$19.000</td>
+                    <td>$119.000</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th scope="row ">5</th>
+                    <td>Vinilos Antiguos Varios Estilos</td>
+                    <td>$5.000</td>
+                    <td>$950</td>
+                    <td>$5.950</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row ">6</th>
+                    <td>Figuras Mario Bross Funko</td>
+                    <td>$20.000</td>
+                    <td>$3.800</td>
+                    <td>$23.800</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <th scope="row ">7</th>
+                    <td>Casette Americana The Offspring</td>
+                    <td>$9.000</td>
+                    <td>$1.710</td>
+                    <td>$10.710</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th scope="row ">8</th>
+                    <td>Walkman Sony</td>
+                    <td>$29.000</td>
+                    <td>$5.510</td>
+                    <td>$34.510</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row ">9</th>
+                    <td>Nokia 5300</td>
+                    <td>$55.000</td>
+                    <td>$10.450</td>
+                    <td>$65.450</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row ">10</th>
+                    <td>Fax Telecom</td>
+                    <td>$26.000</td>
+                    <td>$4.940</td>
+                    <td>$30.940</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th scope="row ">11</th>
+                    <td>Fax Telecom</td>
+                    <td>$26.000</td>
+                    <td>$4.940</td>
+                    <td>$30.940</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+    <div class="container ">
+        <footer class="py-3 my-4 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                <li class="nav-item "><a href="index.html " class="nav-link px-2 text-muted ">Camila Barrera</a></li>
+                <li class="nav-item "><a href="index.html " class="nav-link px-2 text-muted ">Jeremy Herrera</a></li>
+                <li class="nav-item "><a href="index.html " class="nav-link px-2 text-muted ">Francisco Inostroza</a></li>
+                <li class="nav-item "><a href="index.html " class="nav-link px-2 text-muted ">Norman Pohl</a></li>
+                <li class="nav-item "><a href="index.html " class="nav-link px-2 text-muted ">Javiera Santa Maria</a></li>
+            </ul>
+            <p class="text-center text-muted ">&copy; 2023</p>
+        </footer>
+    </div>
+
+    <!--Bootstrap .js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <!--script.js-->
+    <script src="assets/js/estadisticas.js "></script>
+
+</body>
+
+</html>
+
+<!--
+✔️ Crea una nueva página de nombre estadísticas.html
+✔️ Aplica sobre ésta el mismo estilo de las otras páginas.
+- Crea una tabla de cinco columnas y al menos diez filas. 
+La idea es que la llenes con datos
+escogidos por el equipo.
+- Sobre la tabla creada en el punto anterior, aplica el plugin DataTable.
+- Verifica el resultado obtenido.
+-->
