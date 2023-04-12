@@ -3,10 +3,16 @@
     padding: 0;
     border: 0;
 }
+
 body {
     background-color: rgb(236, 236, 236);
-    font-family: 'Chivo Mono', monospace !important ;
+    font-family: 'Chivo Mono', monospace !important;
+    background: url('/assets/img/giphy.gif');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 5rem;
 }
+
 main {
     height: 80%;
 }
@@ -14,7 +20,7 @@ main {
 section {
     text-align: center;
 }
+
 form {
     background-color: #d3ecfc;
 }
-
